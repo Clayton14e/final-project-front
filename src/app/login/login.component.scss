@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient( #08D3CF, #8C5262);
+}
+
+h1, h2, h3, h4 {
+  color: white;
+  font-weight: 600;
+}
+h1 {
+  font-size: 1.6rem;
+}
+#page-logo {
+  width: 6vw;
+  padding-top: 5vh;
+}
+
+label {
+  text-align: center;
+  color: white;
+}
+input {
+  border-style: none;
+  border-radius: 50px;
+  width: 16vw;
+  height: 5vh;
+  text-align: center;
+}
+
+.buttons {
+  padding-top: 10vh;
+}
+.buttons button {
+  width: 16vw;
+  height: 7vh;
+  border-style: none;
+  border-radius: 50px;
+  color: white;
+}
+
+#login-button {
+  background-color: #0CE8E4;
+}
+.signup-btn-class {
+  padding-top: 5vh;
+}
+#signup-button {
+  background-color: #A22447;
+}
+
+#username-label {
+  padding-top: 5vh;
+}
+#password-label {
+  padding-top: 5vh;
+}

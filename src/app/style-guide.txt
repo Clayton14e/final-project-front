@@ -1,0 +1,13 @@
+Style Guide for Final Project
+
+Colors:
+
+Dark Accents
+  Maroon	- #8C5262
+  Darker  - #A22447
+
+Light Accents
+  Teal	- #08D3CF
+  Light - #0CE8E4
+
+White
