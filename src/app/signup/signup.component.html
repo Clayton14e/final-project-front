@@ -10,7 +10,7 @@
             <label for="basic" class="clr-control-label">First Name</label>
             <div class="clr-control-container">
               <div class="clr-input-wrapper">
-                <input type="text" id="basic"  class="clr-input" [(ngModel)]="userService.user.firstName" name='first'>
+                <input type="text" id="basic"  class="clr-input" [(ngModel)]="user.firstName" name='first'>
                 <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
               </div>
               <span class="clr-subtext">Enter First Name</span>
@@ -20,7 +20,7 @@
               <label for="last-name" class="clr-control-label">Last Name</label>
               <div class="clr-control-container">
                 <div class="clr-input-wrapper">
-                  <input type="text" id="last-name"  class="clr-input" [(ngModel)]="userService.user.lastName" name='last'>
+                  <input type="text" id="last-name"  class="clr-input" [(ngModel)]="user.lastName" name='last'>
                   <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
                 </div>
                 <span class="clr-subtext">Enter Last Name</span>
@@ -30,7 +30,7 @@
             <label for="email" class="clr-control-label">Email</label>
             <div class="clr-control-container">
               <div class="clr-input-wrapper">
-                <input type="text" id="email"  class="clr-input" [(ngModel)]="userService.user.email" name='email'>
+                <input type="text" id="email"  class="clr-input" [(ngModel)]="user.email" name='email'>
                 <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
               </div>
               <span class="clr-subtext">Enter an Email</span>
@@ -40,7 +40,7 @@
             <label for="password" class="clr-control-label">Password</label>
             <div class="clr-control-container">
               <div class="clr-input-wrapper">
-                <input type="password" id="password"  class="clr-input" [(ngModel)]="userService.user.password" name='pass'>
+                <input type="password" id="password"  class="clr-input" [(ngModel)]="user.password" name='pass'>
                 <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
               </div>
               <span class="clr-subtext">Enter a Password</span>
@@ -49,11 +49,11 @@
           <div class='buttons'>
               <div>
                 <!-- <button id="login-button" >LOGIN</button> -->
-                <button class="btn btn-primary" (click)='frontService.onLogin()'>Create Account</button>
+                <button class="btn btn-primary" (click)='signUp()'>Create Account</button>
               </div>
               <div class='signup-btn-class'>
                 <!-- <button id="signup-button">SIGNUP</button> -->
-                <button class="btn btn-secondary" (click)='frontService.onLogin()'>Return to Login</button>
+                <button class="btn btn-secondary" (click)='signUp()'>Return to Login</button>
               </div>
             </div>
       </form>
