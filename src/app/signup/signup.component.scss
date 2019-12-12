@@ -51,3 +51,9 @@ h1 {
 .buttons {
   padding-top: 7vh;
 }
+
+.clr-input:not([readonly]) {
+  background: linear-gradient(to bottom,transparent 95%,#0CE8E4 95%) no-repeat;
+  background-size: 0 100%;
+  transition: background-size .2s ease;
+}

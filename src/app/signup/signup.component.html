@@ -10,37 +10,37 @@
             <label for="basic" class="clr-control-label">First Name</label>
             <div class="clr-control-container">
               <div class="clr-input-wrapper">
-                <input type="text" id="basic"  class="clr-input">
+                <input type="text" id="basic"  class="clr-input" [(ngModel)]="userService.user.firstName" name='first'>
                 <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
               </div>
               <span class="clr-subtext">Enter First Name</span>
             </div>
           </div>
           <div class="clr-form-control">
-              <label for="basic" class="clr-control-label">Last Name</label>
+              <label for="last-name" class="clr-control-label">Last Name</label>
               <div class="clr-control-container">
                 <div class="clr-input-wrapper">
-                  <input type="text" id="basic"  class="clr-input">
+                  <input type="text" id="last-name"  class="clr-input" [(ngModel)]="userService.user.lastName" name='last'>
                   <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
                 </div>
                 <span class="clr-subtext">Enter Last Name</span>
               </div>
             </div>
         <div class="clr-form-control">
-            <label for="basic" class="clr-control-label">Email</label>
+            <label for="email" class="clr-control-label">Email</label>
             <div class="clr-control-container">
               <div class="clr-input-wrapper">
-                <input type="text" id="basic"  class="clr-input">
+                <input type="text" id="email"  class="clr-input" [(ngModel)]="userService.user.email" name='email'>
                 <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
               </div>
               <span class="clr-subtext">Enter an Email</span>
             </div>
           </div>
         <div class="clr-form-control">
-            <label for="basic" class="clr-control-label">Password</label>
+            <label for="password" class="clr-control-label">Password</label>
             <div class="clr-control-container">
               <div class="clr-input-wrapper">
-                <input type="password" id="basic"  class="clr-input">
+                <input type="password" id="password"  class="clr-input" [(ngModel)]="userService.user.password" name='pass'>
                 <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
               </div>
               <span class="clr-subtext">Enter a Password</span>
