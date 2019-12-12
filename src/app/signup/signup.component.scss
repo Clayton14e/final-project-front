@@ -7,3 +7,47 @@
   height: 100vh;
   background-image: linear-gradient( #08D3CF, #8C5262);
 }
+#page-logo {
+  width: 6vw;
+  padding-top: 5vh;
+}
+h1, h2, h3, h4 {
+  color: white;
+  font-weight: 600;
+}
+h1 {
+  font-size: 1.6rem;
+}
+.clr-control-label{
+  color: white;
+}
+.clr-input {
+  width: 17vw;
+  color: white;
+}
+.clr-subtext {
+  color: rgb(207, 207, 207);
+}
+.btn-primary {
+  background-color: #0CE8E4;
+  border: none;
+  width: 17vw;
+  text-align: center;
+}
+.btn-primary:hover {
+  background-color: rgb(147, 238, 236);
+  border: none;
+}
+.btn-secondary {
+  border-color: #A22447;
+  color: #A22447;
+  width: 17vw;
+  text-align: center;
+}
+.btn-secondary:hover {
+  color: #A22447;
+  background-color: rgb(182, 120, 137);
+}
+.buttons {
+  padding-top: 7vh;
+}
