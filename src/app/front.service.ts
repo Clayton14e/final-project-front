@@ -10,10 +10,10 @@ export class FrontService {
 
   onLogin() {
     this.userLoggedIn = true;
-    this.router.navigate(['login']);
+    this.router.navigate(['/login']);
   }
 
   onSignup() {
-    this.router.navigate(['signup']);
+    this.router.navigate(['/signup']);
   }
 }

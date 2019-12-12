@@ -7,6 +7,26 @@
     </div>
     <form class="clr-form">
         <div class="clr-form-control">
+            <label for="basic" class="clr-control-label">First Name</label>
+            <div class="clr-control-container">
+              <div class="clr-input-wrapper">
+                <input type="text" id="basic"  class="clr-input">
+                <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
+              </div>
+              <span class="clr-subtext">Enter First Name</span>
+            </div>
+          </div>
+          <div class="clr-form-control">
+              <label for="basic" class="clr-control-label">Last Name</label>
+              <div class="clr-control-container">
+                <div class="clr-input-wrapper">
+                  <input type="text" id="basic"  class="clr-input">
+                  <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
+                </div>
+                <span class="clr-subtext">Enter Last Name</span>
+              </div>
+            </div>
+        <div class="clr-form-control">
             <label for="basic" class="clr-control-label">Email</label>
             <div class="clr-control-container">
               <div class="clr-input-wrapper">
@@ -16,16 +36,6 @@
               <span class="clr-subtext">Enter an Email</span>
             </div>
           </div>
-        <div class="clr-form-control">
-          <label for="basic" class="clr-control-label">Username</label>
-          <div class="clr-control-container">
-            <div class="clr-input-wrapper">
-              <input type="text" id="basic"  class="clr-input">
-              <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
-            </div>
-            <span class="clr-subtext">Enter a Username</span>
-          </div>
-        </div>
         <div class="clr-form-control">
             <label for="basic" class="clr-control-label">Password</label>
             <div class="clr-control-container">
@@ -43,7 +53,7 @@
               </div>
               <div class='signup-btn-class'>
                 <!-- <button id="signup-button">SIGNUP</button> -->
-                <button class="btn btn-secondary" (click)='onLogin()'>Return to Login</button>
+                <button class="btn btn-secondary" (click)='frontService.onLogin()'>Return to Login</button>
               </div>
             </div>
       </form>

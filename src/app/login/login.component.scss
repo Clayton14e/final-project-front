@@ -24,24 +24,56 @@ label {
   text-align: center;
   color: white;
 }
-input {
-  border-style: none;
-  border-radius: 50px;
-  width: 16vw;
-  height: 5vh;
+// input {
+//   border-style: none;
+//   border-radius: 50px;
+//   width: 16vw;
+//   height: 5vh;
+//   text-align: center;
+// }
+.btn-primary {
+  background-color: #0CE8E4;
+  border: none;
+  width: 17vw;
   text-align: center;
 }
-
-.buttons {
-  padding-top: 10vh;
+.btn-primary:hover {
+  background-color: rgb(147, 238, 236);
+  border: none;
 }
-.buttons button {
-  width: 16vw;
-  height: 7vh;
-  border-style: none;
-  border-radius: 50px;
+.btn-secondary {
+  border-color: #A22447;
+  color: #A22447;
+  width: 17vw;
+  text-align: center;
+}
+.btn-secondary:hover {
+  color: #A22447;
+  background-color: rgb(182, 120, 137);
+}
+
+.clr-control-label{
   color: white;
 }
+.clr-input {
+  width: 17vw;
+  color: white;
+}
+.clr-subtext {
+  color: rgb(207, 207, 207);
+}
+.buttons {
+  padding-top: 7vh;
+}
+
+
+// .buttons button {
+//   width: 16vw;
+//   height: 7vh;
+//   border-style: none;
+//   border-radius: 50px;
+//   color: white;
+// }
 
 #login-button {
   background-color: #0CE8E4;

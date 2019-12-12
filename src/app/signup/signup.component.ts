@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FrontService } from '../front.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-signup',
@@ -8,7 +9,7 @@ import { FrontService } from '../front.service';
 })
 export class SignupComponent implements OnInit {
 
-  constructor(public frontService: FrontService) { }
+  constructor(private router: Router, public frontService: FrontService) { }
 
   ngOnInit() {
   }

@@ -3,21 +3,38 @@
     <img id='page-logo' src='assets/Fortinema-Logo.png'>
   </div>
   <div>
-    <h1>FORTINEMA</h1>
+      <h1>FORTINEMA</h1>
   </div>
-  <div id="username-label">
-      <label>USERNAME</label>
-  </div>
-  <div>
-      <input id='username'>
-  </div>
-  <div id="password-label">
-      <label>PASSWORD</label>
-  </div>
-  <div>
-      <input id='username'>
-  </div>
-
+  <form class='clr-form'>
+      <div class="clr-form-control">
+          <label for="basic" class="clr-control-label">Email</label>
+          <div class="clr-control-container">
+            <div class="clr-input-wrapper">
+              <input type="text" id="basic"  class="clr-input">
+              <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
+            </div>
+            <span class="clr-subtext">Enter an Email</span>
+          </div>
+        </div>
+      <div class="clr-form-control">
+          <label for="basic" class="clr-control-label">Password</label>
+          <div class="clr-control-container">
+            <div class="clr-input-wrapper">
+              <input type="password" id="basic"  class="clr-input">
+              <clr-icon class="clr-validate-icon" shape="exclamation-circle"></clr-icon>
+            </div>
+            <span class="clr-subtext">Enter a Password</span>
+          </div>
+        </div>
+        <div class='buttons'>
+            <!-- <button id="login-button" >LOGIN</button> -->
+            <button class="btn btn-primary" (click)='frontService.onLogin()'>LOGIN</button>
+        </div>
+        <div>
+          <button class='btn btn-secondary' (click)='frontService.onSignup()'>SIGN UP</button>
+        </div>
+  </form>
+<!--
   <div class='buttons'>
     <div>
       <button id="login-button" (click)='onLogin()'>LOGIN</button>
@@ -25,5 +42,5 @@
     <div class='signup-btn-class'>
       <button id="signup-button" (click)='onSignup()'>SIGNUP</button>
     </div>
-  </div>
+  </div> -->
 </div>
