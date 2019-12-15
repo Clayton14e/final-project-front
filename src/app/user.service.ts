@@ -20,7 +20,7 @@ export class UserService {
   constructor(private http: HttpClient) { }
 
 
-  registerUser(userCredentials){
+  registerUser(userCredentials) {
     return this.http.post(`${this.baseUrl}${this.appUserUrl}`, userCredentials);
   }
 }
